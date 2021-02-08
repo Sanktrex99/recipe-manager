@@ -1,8 +1,6 @@
 import React from 'react';
 
 
-
-
 function RecipeList() {
     const recipes = [
         'Chicken gumbo',
@@ -12,12 +10,12 @@ function RecipeList() {
     ];
 
     const recipeDisplay = recipes.map(
-        recipe => <li>{ recipe }</li>
+        recipe => <li>{recipe}</li>
     )
 
     return (
         <ul>
-            { recipeDisplay }
+            { recipeDisplay}
         </ul>
     )
 }
